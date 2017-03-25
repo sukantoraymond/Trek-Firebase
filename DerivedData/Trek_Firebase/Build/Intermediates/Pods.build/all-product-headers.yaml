@@ -1,0 +1,33 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/Raymond/Desktop/Trek_Firebase/DerivedData/Trek_Firebase/Build/Products/Debug-iphonesimulator/Pods_Trek_Firebase.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Pods-Trek_Firebase-umbrella.h",
+          'external-contents': "/Users/Raymond/Desktop/Trek_Firebase/Pods/Target Support Files/Pods-Trek_Firebase/Pods-Trek_Firebase-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Pods_Trek_Firebase-Swift.h",
+          'external-contents': "/Users/Raymond/Desktop/Trek_Firebase/DerivedData/Trek_Firebase/Build/Products/Debug-iphonesimulator/Pods_Trek_Firebase.framework/Headers/Pods_Trek_Firebase-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Raymond/Desktop/Trek_Firebase/DerivedData/Trek_Firebase/Build/Products/Debug-iphonesimulator/Pods_Trek_Firebase.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/Raymond/Desktop/Trek_Firebase/DerivedData/Trek_Firebase/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Trek_Firebase.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

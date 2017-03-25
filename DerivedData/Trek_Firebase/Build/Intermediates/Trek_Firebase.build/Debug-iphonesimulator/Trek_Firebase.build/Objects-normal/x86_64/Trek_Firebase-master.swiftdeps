@@ -1,0 +1,6 @@
+version: "Apple Swift version 3.0 (swiftlang-800.0.46.2 clang-800.0.38)"
+options: "e98ed94979c877e32f40db6f8ee8776d"
+build_time: [543779282, 833063000]
+inputs:
+  "/Users/Raymond/Desktop/Trek_Firebase/Trek_Firebase/SignInVC.swift": [543779277, 0]
+  "/Users/Raymond/Desktop/Trek_Firebase/Trek_Firebase/AppDelegate.swift": [543779277, 0]

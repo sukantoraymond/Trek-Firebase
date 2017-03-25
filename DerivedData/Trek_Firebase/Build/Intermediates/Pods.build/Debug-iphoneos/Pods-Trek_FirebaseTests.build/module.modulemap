@@ -1,0 +1,6 @@
+framework module Pods_Trek_FirebaseTests {
+  umbrella header "Pods-Trek_FirebaseTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

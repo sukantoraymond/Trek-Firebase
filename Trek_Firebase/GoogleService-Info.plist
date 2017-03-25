@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>231512147433-h4usq8dv2hm6e5qa4bbi3sb4ejvhj469.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.231512147433-h4usq8dv2hm6e5qa4bbi3sb4ejvhj469</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCO33wMYtNA3P41uwalilSXcfdAx9YVzxM</string>
+	<key>GCM_SENDER_ID</key>
+	<string>231512147433</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.Trek.Trek-Firebase</string>
+	<key>PROJECT_ID</key>
+	<string>trek-d0a8c</string>
+	<key>STORAGE_BUCKET</key>
+	<string>trek-d0a8c.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:231512147433:ios:b056c8772af43140</string>
+	<key>DATABASE_URL</key>
+	<string>https://trek-d0a8c.firebaseio.com</string>
+</dict>
+</plist>

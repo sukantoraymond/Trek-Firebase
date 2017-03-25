@@ -7,13 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27CB39E426177B6BBDE14D15 /* Pods_Trek_FirebaseUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC6F4434C671E51163AD6048 /* Pods_Trek_FirebaseUITests.framework */; };
 		4D09A8BF1E86E2ED00DBF6C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D09A8BE1E86E2ED00DBF6C5 /* AppDelegate.swift */; };
-		4D09A8C11E86E2ED00DBF6C5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D09A8C01E86E2ED00DBF6C5 /* ViewController.swift */; };
+		4D09A8C11E86E2ED00DBF6C5 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D09A8C01E86E2ED00DBF6C5 /* SignInVC.swift */; };
 		4D09A8C41E86E2ED00DBF6C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D09A8C21E86E2ED00DBF6C5 /* Main.storyboard */; };
 		4D09A8C61E86E2ED00DBF6C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D09A8C51E86E2ED00DBF6C5 /* Assets.xcassets */; };
 		4D09A8C91E86E2ED00DBF6C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D09A8C71E86E2ED00DBF6C5 /* LaunchScreen.storyboard */; };
 		4D09A8D41E86E2ED00DBF6C5 /* Trek_FirebaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D09A8D31E86E2ED00DBF6C5 /* Trek_FirebaseTests.swift */; };
 		4D09A8DF1E86E2ED00DBF6C5 /* Trek_FirebaseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D09A8DE1E86E2ED00DBF6C5 /* Trek_FirebaseUITests.swift */; };
+		4D09A8ED1E86E32100DBF6C5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4D09A8EC1E86E32100DBF6C5 /* GoogleService-Info.plist */; };
+		9BBE49C1B23EDDF8AE0FE3BE /* Pods_Trek_Firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85D18C5E205BCA6F83E4E217 /* Pods_Trek_Firebase.framework */; };
+		B2AD21EBC7A2DF75FFE06E93 /* Pods_Trek_FirebaseTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81C49685638D7024CF0694B7 /* Pods_Trek_FirebaseTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		181D22CD2DF58506C140F333 /* Pods-Trek_FirebaseUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Trek_FirebaseUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Trek_FirebaseUITests/Pods-Trek_FirebaseUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		226F2C69C153F37F7720389A /* Pods-Trek_FirebaseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Trek_FirebaseTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Trek_FirebaseTests/Pods-Trek_FirebaseTests.debug.xcconfig"; sourceTree = "<group>"; };
 		4D09A8BB1E86E2ED00DBF6C5 /* Trek_Firebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trek_Firebase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D09A8BE1E86E2ED00DBF6C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4D09A8C01E86E2ED00DBF6C5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4D09A8C01E86E2ED00DBF6C5 /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
 		4D09A8C31E86E2ED00DBF6C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4D09A8C51E86E2ED00DBF6C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D09A8C81E86E2ED00DBF6C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +53,14 @@
 		4D09A8DA1E86E2ED00DBF6C5 /* Trek_FirebaseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Trek_FirebaseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D09A8DE1E86E2ED00DBF6C5 /* Trek_FirebaseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trek_FirebaseUITests.swift; sourceTree = "<group>"; };
 		4D09A8E01E86E2ED00DBF6C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D09A8EC1E86E32100DBF6C5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		50190E7F29CF8A9EA0CCB94A /* Pods-Trek_Firebase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Trek_Firebase.release.xcconfig"; path = "Pods/Target Support Files/Pods-Trek_Firebase/Pods-Trek_Firebase.release.xcconfig"; sourceTree = "<group>"; };
+		81C49685638D7024CF0694B7 /* Pods_Trek_FirebaseTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Trek_FirebaseTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		85D18C5E205BCA6F83E4E217 /* Pods_Trek_Firebase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Trek_Firebase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6ECABBF679C98B4D5E57A7C /* Pods-Trek_FirebaseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Trek_FirebaseTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Trek_FirebaseTests/Pods-Trek_FirebaseTests.release.xcconfig"; sourceTree = "<group>"; };
+		BE6F363FC593F466ACAEF638 /* Pods-Trek_FirebaseUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Trek_FirebaseUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Trek_FirebaseUITests/Pods-Trek_FirebaseUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CC6F4434C671E51163AD6048 /* Pods_Trek_FirebaseUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Trek_FirebaseUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6C28FA6BB7DBD3B9C48C6CC /* Pods-Trek_Firebase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Trek_Firebase.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Trek_Firebase/Pods-Trek_Firebase.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BBE49C1B23EDDF8AE0FE3BE /* Pods_Trek_Firebase.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2AD21EBC7A2DF75FFE06E93 /* Pods_Trek_FirebaseTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27CB39E426177B6BBDE14D15 /* Pods_Trek_FirebaseUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +98,8 @@
 				4D09A8D21E86E2ED00DBF6C5 /* Trek_FirebaseTests */,
 				4D09A8DD1E86E2ED00DBF6C5 /* Trek_FirebaseUITests */,
 				4D09A8BC1E86E2ED00DBF6C5 /* Products */,
+				B77DAEBB154328888C3429EF /* Pods */,
+				99721013BFB82F21226D7D30 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +116,14 @@
 		4D09A8BD1E86E2ED00DBF6C5 /* Trek_Firebase */ = {
 			isa = PBXGroup;
 			children = (
+				4D09A8F01E86E4A200DBF6C5 /* View */,
+				4D09A8EE1E86E49300DBF6C5 /* Controller */,
 				4D09A8BE1E86E2ED00DBF6C5 /* AppDelegate.swift */,
-				4D09A8C01E86E2ED00DBF6C5 /* ViewController.swift */,
 				4D09A8C21E86E2ED00DBF6C5 /* Main.storyboard */,
 				4D09A8C51E86E2ED00DBF6C5 /* Assets.xcassets */,
 				4D09A8C71E86E2ED00DBF6C5 /* LaunchScreen.storyboard */,
 				4D09A8CA1E86E2ED00DBF6C5 /* Info.plist */,
+				4D09A8EC1E86E32100DBF6C5 /* GoogleService-Info.plist */,
 			);
 			path = Trek_Firebase;
 			sourceTree = "<group>";
@@ -125,6 +146,44 @@
 			path = Trek_FirebaseUITests;
 			sourceTree = "<group>";
 		};
+		4D09A8EE1E86E49300DBF6C5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4D09A8C01E86E2ED00DBF6C5 /* SignInVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		4D09A8F01E86E4A200DBF6C5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		99721013BFB82F21226D7D30 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				85D18C5E205BCA6F83E4E217 /* Pods_Trek_Firebase.framework */,
+				81C49685638D7024CF0694B7 /* Pods_Trek_FirebaseTests.framework */,
+				CC6F4434C671E51163AD6048 /* Pods_Trek_FirebaseUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B77DAEBB154328888C3429EF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F6C28FA6BB7DBD3B9C48C6CC /* Pods-Trek_Firebase.debug.xcconfig */,
+				50190E7F29CF8A9EA0CCB94A /* Pods-Trek_Firebase.release.xcconfig */,
+				226F2C69C153F37F7720389A /* Pods-Trek_FirebaseTests.debug.xcconfig */,
+				B6ECABBF679C98B4D5E57A7C /* Pods-Trek_FirebaseTests.release.xcconfig */,
+				181D22CD2DF58506C140F333 /* Pods-Trek_FirebaseUITests.debug.xcconfig */,
+				BE6F363FC593F466ACAEF638 /* Pods-Trek_FirebaseUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +191,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4D09A8E31E86E2ED00DBF6C5 /* Build configuration list for PBXNativeTarget "Trek_Firebase" */;
 			buildPhases = (
+				8939ED2B244C7D805C24C3A5 /* 📦 Check Pods Manifest.lock */,
 				4D09A8B71E86E2ED00DBF6C5 /* Sources */,
 				4D09A8B81E86E2ED00DBF6C5 /* Frameworks */,
 				4D09A8B91E86E2ED00DBF6C5 /* Resources */,
+				A18FD3D37AD6776F7B6AE65A /* 📦 Embed Pods Frameworks */,
+				0BE7F874E4C6E904A4038FBD /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +211,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4D09A8E61E86E2ED00DBF6C5 /* Build configuration list for PBXNativeTarget "Trek_FirebaseTests" */;
 			buildPhases = (
+				25F2B3B902C9A43059BF6386 /* 📦 Check Pods Manifest.lock */,
 				4D09A8CB1E86E2ED00DBF6C5 /* Sources */,
 				4D09A8CC1E86E2ED00DBF6C5 /* Frameworks */,
 				4D09A8CD1E86E2ED00DBF6C5 /* Resources */,
+				28BCE9BEC1F485546E49A7F3 /* 📦 Embed Pods Frameworks */,
+				FD2EE8E0E2D5481B092B3F75 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +232,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4D09A8E91E86E2ED00DBF6C5 /* Build configuration list for PBXNativeTarget "Trek_FirebaseUITests" */;
 			buildPhases = (
+				37EA61D5937E66E5CBC500CE /* 📦 Check Pods Manifest.lock */,
 				4D09A8D61E86E2ED00DBF6C5 /* Sources */,
 				4D09A8D71E86E2ED00DBF6C5 /* Frameworks */,
 				4D09A8D81E86E2ED00DBF6C5 /* Resources */,
+				BEDDAF99A9F5E7B84C50C479 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -232,6 +299,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D09A8ED1E86E32100DBF6C5 /* GoogleService-Info.plist in Resources */,
 				4D09A8C91E86E2ED00DBF6C5 /* LaunchScreen.storyboard in Resources */,
 				4D09A8C61E86E2ED00DBF6C5 /* Assets.xcassets in Resources */,
 				4D09A8C41E86E2ED00DBF6C5 /* Main.storyboard in Resources */,
@@ -254,12 +322,135 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0BE7F874E4C6E904A4038FBD /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Trek_Firebase/Pods-Trek_Firebase-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		25F2B3B902C9A43059BF6386 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		28BCE9BEC1F485546E49A7F3 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Trek_FirebaseTests/Pods-Trek_FirebaseTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		37EA61D5937E66E5CBC500CE /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8939ED2B244C7D805C24C3A5 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A18FD3D37AD6776F7B6AE65A /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Trek_Firebase/Pods-Trek_Firebase-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BEDDAF99A9F5E7B84C50C479 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Trek_FirebaseUITests/Pods-Trek_FirebaseUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD2EE8E0E2D5481B092B3F75 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Trek_FirebaseTests/Pods-Trek_FirebaseTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4D09A8B71E86E2ED00DBF6C5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D09A8C11E86E2ED00DBF6C5 /* ViewController.swift in Sources */,
+				4D09A8C11E86E2ED00DBF6C5 /* SignInVC.swift in Sources */,
 				4D09A8BF1E86E2ED00DBF6C5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -408,6 +599,7 @@
 		};
 		4D09A8E41E86E2ED00DBF6C5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6C28FA6BB7DBD3B9C48C6CC /* Pods-Trek_Firebase.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Trek_Firebase/Info.plist;
@@ -420,6 +612,7 @@
 		};
 		4D09A8E51E86E2ED00DBF6C5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50190E7F29CF8A9EA0CCB94A /* Pods-Trek_Firebase.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Trek_Firebase/Info.plist;
@@ -432,6 +625,7 @@
 		};
 		4D09A8E71E86E2ED00DBF6C5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 226F2C69C153F37F7720389A /* Pods-Trek_FirebaseTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -446,6 +640,7 @@
 		};
 		4D09A8E81E86E2ED00DBF6C5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6ECABBF679C98B4D5E57A7C /* Pods-Trek_FirebaseTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -460,6 +655,7 @@
 		};
 		4D09A8EA1E86E2ED00DBF6C5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 181D22CD2DF58506C140F333 /* Pods-Trek_FirebaseUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = Trek_FirebaseUITests/Info.plist;
@@ -473,6 +669,7 @@
 		};
 		4D09A8EB1E86E2ED00DBF6C5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE6F363FC593F466ACAEF638 /* Pods-Trek_FirebaseUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = Trek_FirebaseUITests/Info.plist;
@@ -503,6 +700,7 @@
 				4D09A8E51E86E2ED00DBF6C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4D09A8E61E86E2ED00DBF6C5 /* Build configuration list for PBXNativeTarget "Trek_FirebaseTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +709,7 @@
 				4D09A8E81E86E2ED00DBF6C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4D09A8E91E86E2ED00DBF6C5 /* Build configuration list for PBXNativeTarget "Trek_FirebaseUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +718,7 @@
 				4D09A8EB1E86E2ED00DBF6C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
